@@ -1,0 +1,532 @@
+/*Estilização da Landing page*/
+/*Tudo*/
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Sans-serif', sans-serif;
+    font-weight: bold;
+}
+/*header*/
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+}
+.logo{
+    width: 201px;
+    height: 100px;
+    margin: 0px 10px 0px 10px;
+}
+
+.slogan{
+    margin: 0px;
+    width: 100vh;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header-links{
+    margin-right: 20px ;
+}
+
+/*corpo do site*/
+main{
+    width: 100%;
+}
+.image-container{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.main-image{
+    max-width: 100%;
+}
+
+.image-caption{
+    height: 242px;
+    width: 665px;
+    font-size: 32px;
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 10px; 
+    margin: 0;
+    text-align: justify;
+    margin-right: 20px ;
+}
+
+.divSlogan{
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   align-items: center; /* Centraliza itens horizontalmente */
+   justify-content: center; /* Centraliza itens verticalmente */
+}
+.slogan2{
+    width: 40%;
+    text-align: center;
+}
+
+.example-images{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.example-image,
+ .example-image2{
+    width: 100%;
+    height: 100%;
+}
+.image-div,
+  .image-div2 {
+    display: inline-block;
+    margin: 10px; /* Ajuste conforme necessário */
+}
+/*Rodapé*/
+footer{
+    background-color: #1A1A1A;
+    width: 100%
+}
+.number1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-image{
+    width: 15% ;
+    padding: 20px;
+}
+
+.footer-image img{
+    width: 100% ;
+}
+
+.footer-icons{
+    width: 13%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facebook{
+    width: 15%;
+    height: 30%;
+}
+
+.x{
+    height: 29%;
+    padding-left: 3%;
+}
+
+.instagram{
+    height: 35%;
+}
+
+.whatsApp{
+    height: 42%;
+}
+
+.number2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.footer-links2{
+    padding-left: 20px;
+    width: 40%;
+}
+
+.textEnd{
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilização da home page*/
+/*Header*/
+.homeHeader{
+    margin-bottom: 0%;
+}
+.buttons{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.buttonHeader{
+    background-color: #7F7F7F;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 26px;
+    width: 40%;
+    padding: 10px;
+    border: 0%;
+    margin-right: 5px;
+    border: 1px solid #7F7F7F;
+}
+
+.endHeader{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/*Main*/
+
+.mainHome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.side{
+    width: 25%;
+    margin: 0px;
+    border: 1px solid #ffffff;
+    background-color: #1A1A1A;
+}
+
+.principal{
+    width: 90%;
+}
+
+.sideOne{
+    margin-top: 16px;
+    width: 100%;
+    padding-left: 1%;
+}
+
+.Highlights{
+    padding-left: 8px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.separateDiv{
+    border: 0.25px solid #ffffff;
+}
+
+.sitetwo{
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.categories{
+    margin: 0%;
+    text-align: left;
+    padding-left: 8px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.buttonsSide{
+    width: 95%;
+    height: 25px;
+    margin: 10px 0px 10px 5px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buttonsSide button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.liButtonsSide img{
+    width: 10%;
+    height: 90%;
+    padding: 0% 25% 0% 5%;
+}
+.exit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.exit img{
+    width: 8%;
+    padding-right:1%;
+}
+.divButtons, .divButtons2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+.endSide{
+    font-size: 8px;
+    text-align: center;
+    padding-left: 0%;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ffffff;
+    border-top: 0px;
+    width: 100%;
+    height: 15%;
+}
+
+.explorer{
+    margin: 20px;
+}
+.buttonsFiltros{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+.buttonsFiltros button{
+    width: 20%;
+    height: 55%;
+    border-radius: 20px;
+    border: 1px solid #7F7F7F;
+    background-color: #7F7F7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+.topEnd{
+    margin-right: 10px;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topEnd button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #7F7F7F;
+    background-color: #7F7F7F;
+    color: #ffffff;
+}
+.allButton{
+    width: 40%;
+    height: 55%;
+}
+
+.filterButton{
+    width: 50%;
+    height: 42.58px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.allIcons img, .pcIcons img, .smartphoneIcons img, .consolesIcons img, .allButton img{
+    width: 70%;
+    height: 70%;
+}
+
+.filterButton image{
+    width: 60px;
+}
+
+.allButton{
+    border-radius: 20px;
+}
+
+.PrincipalbodyPage{
+    width: 100%;
+    height: 84.7%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.separateHomeDivs{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.separateHomeDivsTwo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.twoDivsTopLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.twoDivsTopRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.twoDivsBottonLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.twoDivsBottonRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divNumberOne{
+    width: 95%;
+    height: 45%;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    text-align: center;
+}
+.buttonsDivsHorizontais{
+    width: 30%;
+    height: 40%;
+    border-radius: 45%;
+    background-color: #7F7F7F;
+    color:#ffffff;
+    border: 1px solid #7F7F7F;
+    padding: 0%;
+}
+
+.divNumberTwo{
+    width: 95%;
+    height: 45%;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+.divNumberOneVertical{
+    width: 45%;
+    height: 95%;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.divNumberTwoVertical{
+    width: 45%;
+    height: 95%;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.buttonsDivsVerticais{
+    background-color: #7F7F7F ;
+    color:#ffffff;
+    border: 1px solid #7F7F7F;
+    align-self:center;
+    margin-bottom: 40px;
+    width: 50%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.divNumberOneVerticalTop{
+    width: 45%;
+    height: 95%;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.divNumberTwoVerticalTop{
+    width: 45%;
+    height: 95%;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.divTopNumberOneVertical{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divTopNumberOneVertical img{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.twoButtonsDivVertical{
+    border: 1px solid #7F7F7F;
+    background-color: #7F7F7F;
+    color: #ffffff;
+    margin-bottom: 15%;
+    width: 50%;
+    height: 90%;
+    border-radius: 50%;
+}
